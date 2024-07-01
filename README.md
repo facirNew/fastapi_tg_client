@@ -51,9 +51,13 @@
     git clone https://github.com/facirNew/fastapi_tg_client.git
     cd fastapi_tg_client
     ```
-2. Запустите docker compose:
+    
+2. Для конфигурации параметров создайте файл `.env` в корне проекта на основе .env.example
+
+3. Запустите docker compose:
     ```bash
     docker compose up -d
     ```
-3. Откройте в браузере `http://127.0.0.1:8000/docs` для доступа к автоматической документации Swagger UI.
+
+4. Откройте в браузере `http://127.0.0.1:8000/docs` для доступа к автоматической документации Swagger UI.
 
